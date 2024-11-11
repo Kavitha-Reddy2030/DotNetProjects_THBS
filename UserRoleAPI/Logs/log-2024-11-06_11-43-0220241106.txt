@@ -1,0 +1,538 @@
+2024-11-06 11:43:03.017 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-06 11:43:03.209 +05:30 [INF] Application starting up
+2024-11-06 11:43:03.215 +05:30 [DBG] Hosting starting
+2024-11-06 11:43:03.261 +05:30 [INF] User profile is available. Using 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-06 11:43:03.276 +05:30 [DBG] Reading data from file 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys\key-8c0d56e6-de24-4f0e-816f-6e9f88ea509c.xml'.
+2024-11-06 11:43:03.292 +05:30 [DBG] Found key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c}.
+2024-11-06 11:43:03.308 +05:30 [DBG] Considering key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} with expiration date 2024-12-01 09:06:49Z as default key.
+2024-11-06 11:43:03.312 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-11-06 11:43:03.315 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-11-06 11:43:03.319 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-11-06 11:43:03.327 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-11-06 11:43:03.329 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-11-06 11:43:03.331 +05:30 [DBG] Using key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} as the default key.
+2024-11-06 11:43:03.332 +05:30 [DBG] Key ring with default key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} was loaded during application startup.
+2024-11-06 11:43:03.419 +05:30 [INF] Now listening on: http://localhost:5064
+2024-11-06 11:43:03.419 +05:30 [DBG] Loaded hosting startup assembly UserRoleAPI
+2024-11-06 11:43:03.419 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-06 11:43:03.420 +05:30 [INF] Hosting environment: Development
+2024-11-06 11:43:03.420 +05:30 [INF] Content root path: C:\UserRoleAPI
+2024-11-06 11:43:03.420 +05:30 [DBG] Hosting started
+2024-11-06 11:43:03.603 +05:30 [DBG] Connection id "0HN7U589BJVEF" accepted.
+2024-11-06 11:43:03.604 +05:30 [DBG] Connection id "0HN7U589BJVEG" accepted.
+2024-11-06 11:43:03.604 +05:30 [DBG] Connection id "0HN7U589BJVEF" started.
+2024-11-06 11:43:03.604 +05:30 [DBG] Connection id "0HN7U589BJVEG" started.
+2024-11-06 11:43:03.674 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5064/swagger/index.html - null null
+2024-11-06 11:43:03.678 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-06 11:43:03.713 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-06 11:43:03.713 +05:30 [DBG] Request did not match any endpoints
+2024-11-06 11:43:03.878 +05:30 [DBG] Connection id "0HN7U589BJVEF" completed keep alive response.
+2024-11-06 11:43:03.880 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5064/swagger/index.html - 200 null text/html;charset=utf-8 211.5814ms
+2024-11-06 11:43:04.458 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5064/swagger/v1/swagger.json - null null
+2024-11-06 11:43:04.461 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-06 11:43:04.462 +05:30 [DBG] Request did not match any endpoints
+2024-11-06 11:43:04.728 +05:30 [DBG] Connection id "0HN7U589BJVEF" completed keep alive response.
+2024-11-06 11:43:04.729 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 272.1926ms
+2024-11-06 11:43:11.100 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5064/api/Auth/login - application/json 71
+2024-11-06 11:43:11.112 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Auth/login'
+2024-11-06 11:43:11.122 +05:30 [DBG] Endpoint 'UserRoleAPI.BusinessLayer.Controllers.AuthController.Login (UserRoleAPI)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2024-11-06 11:43:11.123 +05:30 [DBG] Request matched endpoint 'UserRoleAPI.BusinessLayer.Controllers.AuthController.Login (UserRoleAPI)'
+2024-11-06 11:43:11.128 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-06 11:43:11.131 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-06 11:43:11.222 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 11:43:11.226 +05:30 [INF] Executing endpoint 'UserRoleAPI.BusinessLayer.Controllers.AuthController.Login (UserRoleAPI)'
+2024-11-06 11:43:11.289 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserRoleAPI.DataAccessLayer.DTO.LoginDTO) on controller UserRoleAPI.BusinessLayer.Controllers.AuthController (UserRoleAPI).
+2024-11-06 11:43:11.291 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 11:43:11.292 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 11:43:11.294 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-06 11:43:11.294 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 11:43:11.294 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-06 11:43:11.303 +05:30 [DBG] Executing controller factory for controller UserRoleAPI.BusinessLayer.Controllers.AuthController (UserRoleAPI)
+2024-11-06 11:43:11.636 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-06 11:43:11.983 +05:30 [DBG] Executed controller factory for controller UserRoleAPI.BusinessLayer.Controllers.AuthController (UserRoleAPI)
+2024-11-06 11:43:11.992 +05:30 [DBG] Attempting to bind parameter 'loginDto' of type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO' ...
+2024-11-06 11:43:11.997 +05:30 [DBG] Attempting to bind parameter 'loginDto' of type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO' using the name '' in request data ...
+2024-11-06 11:43:12.000 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-06 11:43:12.037 +05:30 [DBG] Connection id "0HN7U589BJVEF", Request id "0HN7U589BJVEF:00000003": started reading request body.
+2024-11-06 11:43:12.038 +05:30 [DBG] Connection id "0HN7U589BJVEF", Request id "0HN7U589BJVEF:00000003": done reading request body.
+2024-11-06 11:43:12.051 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO'
+2024-11-06 11:43:12.052 +05:30 [DBG] Done attempting to bind parameter 'loginDto' of type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO'.
+2024-11-06 11:43:12.053 +05:30 [DBG] Done attempting to bind parameter 'loginDto' of type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO'.
+2024-11-06 11:43:12.053 +05:30 [DBG] Attempting to validate the bound parameter 'loginDto' of type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO' ...
+2024-11-06 11:43:12.070 +05:30 [DBG] Done attempting to validate the bound parameter 'loginDto' of type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO'.
+2024-11-06 11:43:14.130 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'UserRoleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-06 11:43:14.195 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:14.306 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:14.313 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:14.319 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:14.350 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 11:43:14.515 +05:30 [DBG] Creating DbConnection.
+2024-11-06 11:43:14.589 +05:30 [DBG] Created DbConnection. (68ms).
+2024-11-06 11:43:14.596 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:15.073 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:15.085 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 11:43:15.102 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (9ms).
+2024-11-06 11:43:15.123 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (39ms).
+2024-11-06 11:43:15.147 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:15.233 +05:30 [INF] Executed DbCommand (95ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:15.271 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 11:43:15.291 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:15.308 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 60ms reading results.
+2024-11-06 11:43:15.312 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:15.325 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (11ms).
+2024-11-06 11:43:15.350 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:15.354 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 11:43:15.359 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:15.360 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:15.360 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:15.360 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:15.365 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 11:43:15.368 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:15.371 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:15.372 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 11:43:15.372 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:15.372 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:15.373 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:15.378 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:15.378 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 11:43:15.379 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:15.379 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 11:43:15.379 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:15.379 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 11:43:15.380 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:15.381 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 11:43:15.537 +05:30 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Include(u => u.Role)
+    .FirstOrDefault(u => u.Email == __email_0 && u.ActiveStatus)'
+2024-11-06 11:43:15.721 +05:30 [DBG] Including navigation: 'User.Role'.
+2024-11-06 11:43:16.216 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: User.UserId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.ActiveStatus (bool) Required, 1], [Property: User.CreatedBy (string) Required, 2], [Property: User.CreatedOn (DateTime) Required, 3], [Property: User.Email (string) Required Index MaxLength(255), 4], [Property: User.MobileNumber (string) MaxLength(20), 5], [Property: User.Password (string) Required MaxLength(255), 6], [Property: User.RoleId (int) Required FK Index, 7], [Property: User.UserName (string) Required MaxLength(255), 8] }
+                1 -> Dictionary<IProperty, int> { [Property: Role.RoleId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 9], [Property: Role.ActiveStatus (bool) Required, 10], [Property: Role.CreatedBy (string) Required, 11], [Property: Role.CreatedOn (DateTime) Required, 12], [Property: Role.RoleName (string) Required MaxLength(255), 13] }
+            SELECT TOP(1) m.UserId, m.ActiveStatus, m.CreatedBy, m.CreatedOn, m.Email, m.MobileNumber, m.Password, m.RoleId, m.UserName, m0.RoleId, m0.ActiveStatus, m0.CreatedBy, m0.CreatedOn, m0.RoleName
+            FROM mst_Users AS m
+            INNER JOIN mst_Roles AS m0 ON m.RoleId == m0.RoleId
+            WHERE (m.Email == @__email_0) && m.ActiveStatus), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        UserRoleAPI.Data.UserRoleDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-11-06 11:43:16.326 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.334 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.334 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 11:43:16.335 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.335 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.336 +05:30 [DBG] Executing DbCommand [Parameters=[@__email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[UserId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[Email], [m].[MobileNumber], [m].[Password], [m].[RoleId], [m].[UserName], [m0].[RoleId], [m0].[ActiveStatus], [m0].[CreatedBy], [m0].[CreatedOn], [m0].[RoleName]
+FROM [mst_Users] AS [m]
+INNER JOIN [mst_Roles] AS [m0] ON [m].[RoleId] = [m0].[RoleId]
+WHERE [m].[Email] = @__email_0 AND [m].[ActiveStatus] = CAST(1 AS bit)
+2024-11-06 11:43:16.376 +05:30 [INF] Executed DbCommand (40ms) [Parameters=[@__email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[UserId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[Email], [m].[MobileNumber], [m].[Password], [m].[RoleId], [m].[UserName], [m0].[RoleId], [m0].[ActiveStatus], [m0].[CreatedBy], [m0].[CreatedOn], [m0].[RoleName]
+FROM [mst_Users] AS [m]
+INNER JOIN [mst_Roles] AS [m0] ON [m].[RoleId] = [m0].[RoleId]
+WHERE [m].[Email] = @__email_0 AND [m].[ActiveStatus] = CAST(1 AS bit)
+2024-11-06 11:43:16.410 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.467 +05:30 [DBG] The navigation 'User.Role' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.480 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.513 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.514 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 137ms reading results.
+2024-11-06 11:43:16.518 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.519 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (1ms).
+2024-11-06 11:43:16.520 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.520 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:16.520 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:16.552 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 11:43:16.553 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.554 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.554 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 11:43:16.554 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.554 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.555 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:16.556 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:16.556 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 11:43:16.557 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.557 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 11:43:16.557 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.557 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 11:43:16.557 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.557 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 11:43:16.577 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.578 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.578 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:16.578 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:16.579 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 11:43:16.580 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.580 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.581 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 11:43:16.581 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.581 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.581 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:16.583 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:16.583 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 11:43:16.583 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.584 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 11:43:16.584 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.584 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 11:43:16.584 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.584 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 11:43:16.584 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.585 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.585 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:16.585 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:16.585 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 11:43:16.586 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.586 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.586 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 11:43:16.586 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.586 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.587 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:16.588 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:16.588 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 11:43:16.588 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.588 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 11:43:16.589 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.589 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 11:43:16.589 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.589 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 11:43:16.598 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.598 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.599 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 11:43:16.599 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.599 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.599 +05:30 [DBG] Executing DbCommand [Parameters=[@__email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[UserId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[Email], [m].[MobileNumber], [m].[Password], [m].[RoleId], [m].[UserName], [m0].[RoleId], [m0].[ActiveStatus], [m0].[CreatedBy], [m0].[CreatedOn], [m0].[RoleName]
+FROM [mst_Users] AS [m]
+INNER JOIN [mst_Roles] AS [m0] ON [m].[RoleId] = [m0].[RoleId]
+WHERE [m].[Email] = @__email_0 AND [m].[ActiveStatus] = CAST(1 AS bit)
+2024-11-06 11:43:16.602 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[UserId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[Email], [m].[MobileNumber], [m].[Password], [m].[RoleId], [m].[UserName], [m0].[RoleId], [m0].[ActiveStatus], [m0].[CreatedBy], [m0].[CreatedOn], [m0].[RoleName]
+FROM [mst_Users] AS [m]
+INNER JOIN [mst_Roles] AS [m0] ON [m].[RoleId] = [m0].[RoleId]
+WHERE [m].[Email] = @__email_0 AND [m].[ActiveStatus] = CAST(1 AS bit)
+2024-11-06 11:43:16.603 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.603 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 11:43:16.603 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.603 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 11:43:16.603 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.604 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.604 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:16.604 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:16.604 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 11:43:16.605 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.605 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.605 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 11:43:16.605 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.605 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.606 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:16.607 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:16.607 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 11:43:16.608 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.608 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 11:43:16.608 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.609 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 11:43:16.609 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.609 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 11:43:16.611 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.611 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.611 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:16.612 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:16.612 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 11:43:16.612 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.613 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.613 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 11:43:16.613 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.613 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:16.613 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:16.615 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:16.615 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 11:43:16.616 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.616 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 11:43:16.616 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.616 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 11:43:16.616 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:16.616 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 11:43:16.677 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-06 11:43:16.680 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-11-06 11:43:16.680 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 11:43:16.680 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 11:43:16.682 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 11:43:16.683 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-06 11:43:16.703 +05:30 [INF] Executed action UserRoleAPI.BusinessLayer.Controllers.AuthController.Login (UserRoleAPI) in 5401.0151ms
+2024-11-06 11:43:16.704 +05:30 [INF] Executed endpoint 'UserRoleAPI.BusinessLayer.Controllers.AuthController.Login (UserRoleAPI)'
+2024-11-06 11:43:16.709 +05:30 [DBG] Connection id "0HN7U589BJVEF" completed keep alive response.
+2024-11-06 11:43:16.715 +05:30 [DBG] 'UserRoleDbContext' disposed.
+2024-11-06 11:43:16.730 +05:30 [DBG] Disposing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:16.734 +05:30 [DBG] Disposed connection to database '' on server '' (4ms).
+2024-11-06 11:43:16.735 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5064/api/Auth/login - 200 null application/json; charset=utf-8 5635.0114ms
+2024-11-06 11:43:38.996 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5064/api/Role/export-excel - null null
+2024-11-06 11:43:38.998 +05:30 [DBG] 2 candidate(s) found for the request path '/api/Role/export-excel'
+2024-11-06 11:43:38.998 +05:30 [DBG] Endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRoles (UserRoleAPI)' with route pattern 'api/Role/export-excel' is valid for the request path '/api/Role/export-excel'
+2024-11-06 11:43:38.998 +05:30 [DBG] Endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.GetRoleById (UserRoleAPI)' with route pattern 'api/Role/{id}' is valid for the request path '/api/Role/export-excel'
+2024-11-06 11:43:38.998 +05:30 [DBG] Request matched endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRoles (UserRoleAPI)'
+2024-11-06 11:43:38.999 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-06 11:43:39.117 +05:30 [DBG] Successfully validated the token.
+2024-11-06 11:43:39.119 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-11-06 11:43:39.131 +05:30 [DBG] Authorization was successful.
+2024-11-06 11:43:39.132 +05:30 [INF] Executing endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRoles (UserRoleAPI)'
+2024-11-06 11:43:39.144 +05:30 [INF] Route matched with {action = "ExportRoles", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExportRoles() on controller UserRoleAPI.BusinessLayer.Controllers.RoleController (UserRoleAPI).
+2024-11-06 11:43:39.144 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 11:43:39.144 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 11:43:39.144 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-06 11:43:39.144 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 11:43:39.145 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-06 11:43:39.145 +05:30 [DBG] Executing controller factory for controller UserRoleAPI.BusinessLayer.Controllers.RoleController (UserRoleAPI)
+2024-11-06 11:43:39.148 +05:30 [DBG] Executed controller factory for controller UserRoleAPI.BusinessLayer.Controllers.RoleController (UserRoleAPI)
+2024-11-06 11:43:39.324 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'UserRoleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-06 11:43:39.325 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.326 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.326 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:39.327 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:39.327 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 11:43:39.329 +05:30 [DBG] Creating DbConnection.
+2024-11-06 11:43:39.330 +05:30 [DBG] Created DbConnection. (0ms).
+2024-11-06 11:43:39.330 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.330 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.330 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 11:43:39.330 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:39.331 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:39.331 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:39.335 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:39.336 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 11:43:39.336 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.336 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 11:43:39.337 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.337 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 11:43:39.337 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.337 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 11:43:39.340 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.341 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.341 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:39.342 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:39.342 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 11:43:39.343 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.344 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.344 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 11:43:39.344 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:39.345 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:39.345 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:39.347 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:39.347 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 11:43:39.347 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.347 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 11:43:39.347 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.348 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 11:43:39.348 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.348 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 11:43:39.362 +05:30 [DBG] Compiling query expression: 
+'DbSet<Role>()
+    .Where(r => r.ActiveStatus)
+    .OrderByDescending(u => u.CreatedOn)'
+2024-11-06 11:43:39.382 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Role>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Role.RoleId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Role.ActiveStatus (bool) Required, 1], [Property: Role.CreatedBy (string) Required, 2], [Property: Role.CreatedOn (DateTime) Required, 3], [Property: Role.RoleName (string) Required MaxLength(255), 4] }
+        SELECT m.RoleId, m.ActiveStatus, m.CreatedBy, m.CreatedOn, m.RoleName
+        FROM mst_Roles AS m
+        WHERE m.ActiveStatus
+        ORDER BY m.CreatedOn DESC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Role>, 
+    UserRoleAPI.Data.UserRoleDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-11-06 11:43:39.386 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.386 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.386 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 11:43:39.386 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:39.387 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:39.387 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[RoleId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[RoleName]
+FROM [mst_Roles] AS [m]
+WHERE [m].[ActiveStatus] = CAST(1 AS bit)
+ORDER BY [m].[CreatedOn] DESC
+2024-11-06 11:43:39.394 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[RoleId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[RoleName]
+FROM [mst_Roles] AS [m]
+WHERE [m].[ActiveStatus] = CAST(1 AS bit)
+ORDER BY [m].[CreatedOn] DESC
+2024-11-06 11:43:39.395 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.397 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.397 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.397 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.398 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.398 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.399 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.399 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 4ms reading results.
+2024-11-06 11:43:39.399 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.399 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 11:43:39.399 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.400 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.400 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:39.400 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 11:43:39.401 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 11:43:39.401 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.402 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.402 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 11:43:39.402 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:39.402 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 11:43:39.403 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:39.404 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 11:43:39.405 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 11:43:39.405 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.405 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 11:43:39.405 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:39.405 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 11:43:39.406 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 11:43:39.406 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 11:43:39.963 +05:30 [INF] Executed action UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRoles (UserRoleAPI) in 818.4006ms
+2024-11-06 11:43:39.964 +05:30 [INF] Executed endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRoles (UserRoleAPI)'
+2024-11-06 11:43:39.967 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UserRoleAPI.Logging.ExportExcelService.CreateSheetWithHeader(IWorkbook workbook, String sheetName, Boolean isFirstSheet) in C:\UserRoleAPI\Logging\ExportExcelService.cs:line 517
+   at UserRoleAPI.Logging.ExportExcelService.ExportRolesToExcelAsync(IEnumerable`1 roles) in C:\UserRoleAPI\Logging\ExportExcelService.cs:line 449
+   at UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRoles() in C:\UserRoleAPI\PresentationLayer\Controllers\RoleController.cs:line 174
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-06 11:43:40.081 +05:30 [DBG] Connection id "0HN7U589BJVEF" completed keep alive response.
+2024-11-06 11:43:40.081 +05:30 [DBG] 'UserRoleDbContext' disposed.
+2024-11-06 11:43:40.082 +05:30 [DBG] Disposing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 11:43:40.082 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-11-06 11:43:40.082 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5064/api/Role/export-excel - 500 null text/plain; charset=utf-8 1086.2332ms
+2024-11-06 11:44:12.236 +05:30 [DBG] Connection id "0HN7U589BJVEG" received FIN.
+2024-11-06 11:44:12.239 +05:30 [DBG] Connection id "0HN7U589BJVEG" disconnecting.
+2024-11-06 11:44:12.240 +05:30 [DBG] Connection id "0HN7U589BJVEG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-06 11:44:12.243 +05:30 [DBG] Connection id "0HN7U589BJVEG" stopped.
+2024-11-06 11:45:50.796 +05:30 [DBG] Connection id "0HN7U589BJVEF" disconnecting.
+2024-11-06 11:45:50.796 +05:30 [DBG] Connection id "0HN7U589BJVEF" stopped.
+2024-11-06 11:45:50.797 +05:30 [DBG] Connection id "0HN7U589BJVEF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-06 11:46:43.178 +05:30 [INF] Application is shutting down...
+2024-11-06 11:46:43.178 +05:30 [INF] Application is shutting down
+2024-11-06 11:46:43.180 +05:30 [DBG] Hosting stopping

@@ -1,0 +1,6 @@
+@PackageAPI_UOW_HostAddress = http://localhost:5221
+
+GET {{PackageAPI_UOW_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

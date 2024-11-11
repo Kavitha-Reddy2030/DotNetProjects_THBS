@@ -1,0 +1,1287 @@
+2024-11-06 12:02:58.955 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-06 12:02:59.104 +05:30 [INF] Application starting up
+2024-11-06 12:02:59.111 +05:30 [DBG] Hosting starting
+2024-11-06 12:02:59.159 +05:30 [INF] User profile is available. Using 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-06 12:02:59.173 +05:30 [DBG] Reading data from file 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys\key-8c0d56e6-de24-4f0e-816f-6e9f88ea509c.xml'.
+2024-11-06 12:02:59.192 +05:30 [DBG] Found key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c}.
+2024-11-06 12:02:59.212 +05:30 [DBG] Considering key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} with expiration date 2024-12-01 09:06:49Z as default key.
+2024-11-06 12:02:59.217 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-11-06 12:02:59.223 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-11-06 12:02:59.225 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-11-06 12:02:59.234 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-11-06 12:02:59.237 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-11-06 12:02:59.240 +05:30 [DBG] Using key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} as the default key.
+2024-11-06 12:02:59.241 +05:30 [DBG] Key ring with default key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} was loaded during application startup.
+2024-11-06 12:02:59.346 +05:30 [INF] Now listening on: http://localhost:5064
+2024-11-06 12:02:59.346 +05:30 [DBG] Loaded hosting startup assembly UserRoleAPI
+2024-11-06 12:02:59.347 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-06 12:02:59.347 +05:30 [INF] Hosting environment: Development
+2024-11-06 12:02:59.347 +05:30 [INF] Content root path: C:\UserRoleAPI
+2024-11-06 12:02:59.347 +05:30 [DBG] Hosting started
+2024-11-06 12:03:06.186 +05:30 [DBG] Connection id "0HN7U5JFOAOEH" accepted.
+2024-11-06 12:03:06.188 +05:30 [DBG] Connection id "0HN7U5JFOAOEI" accepted.
+2024-11-06 12:03:06.188 +05:30 [DBG] Connection id "0HN7U5JFOAOEH" started.
+2024-11-06 12:03:06.188 +05:30 [DBG] Connection id "0HN7U5JFOAOEI" started.
+2024-11-06 12:03:06.271 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5064/swagger/index.html - null null
+2024-11-06 12:03:06.276 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-06 12:03:06.321 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-06 12:03:06.322 +05:30 [DBG] Request did not match any endpoints
+2024-11-06 12:03:06.533 +05:30 [DBG] Connection id "0HN7U5JFOAOEH" completed keep alive response.
+2024-11-06 12:03:06.536 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5064/swagger/index.html - 200 null text/html;charset=utf-8 269.4822ms
+2024-11-06 12:03:07.002 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5064/swagger/v1/swagger.json - null null
+2024-11-06 12:03:07.003 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-06 12:03:07.004 +05:30 [DBG] Request did not match any endpoints
+2024-11-06 12:03:07.367 +05:30 [DBG] Connection id "0HN7U5JFOAOEH" completed keep alive response.
+2024-11-06 12:03:07.368 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 365.9078ms
+2024-11-06 12:03:14.509 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5064/api/Auth/login - application/json 71
+2024-11-06 12:03:14.520 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Auth/login'
+2024-11-06 12:03:14.529 +05:30 [DBG] Endpoint 'UserRoleAPI.BusinessLayer.Controllers.AuthController.Login (UserRoleAPI)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2024-11-06 12:03:14.530 +05:30 [DBG] Request matched endpoint 'UserRoleAPI.BusinessLayer.Controllers.AuthController.Login (UserRoleAPI)'
+2024-11-06 12:03:14.535 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-06 12:03:14.537 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-11-06 12:03:14.731 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 12:03:14.736 +05:30 [INF] Executing endpoint 'UserRoleAPI.BusinessLayer.Controllers.AuthController.Login (UserRoleAPI)'
+2024-11-06 12:03:14.795 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserRoleAPI.DataAccessLayer.DTO.LoginDTO) on controller UserRoleAPI.BusinessLayer.Controllers.AuthController (UserRoleAPI).
+2024-11-06 12:03:14.798 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 12:03:14.799 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 12:03:14.801 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-06 12:03:14.801 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 12:03:14.802 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-06 12:03:14.819 +05:30 [DBG] Executing controller factory for controller UserRoleAPI.BusinessLayer.Controllers.AuthController (UserRoleAPI)
+2024-11-06 12:03:15.146 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-06 12:03:15.505 +05:30 [DBG] Executed controller factory for controller UserRoleAPI.BusinessLayer.Controllers.AuthController (UserRoleAPI)
+2024-11-06 12:03:15.516 +05:30 [DBG] Attempting to bind parameter 'loginDto' of type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO' ...
+2024-11-06 12:03:15.520 +05:30 [DBG] Attempting to bind parameter 'loginDto' of type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO' using the name '' in request data ...
+2024-11-06 12:03:15.522 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-06 12:03:15.559 +05:30 [DBG] Connection id "0HN7U5JFOAOEH", Request id "0HN7U5JFOAOEH:00000003": started reading request body.
+2024-11-06 12:03:15.559 +05:30 [DBG] Connection id "0HN7U5JFOAOEH", Request id "0HN7U5JFOAOEH:00000003": done reading request body.
+2024-11-06 12:03:15.569 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO'
+2024-11-06 12:03:15.570 +05:30 [DBG] Done attempting to bind parameter 'loginDto' of type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO'.
+2024-11-06 12:03:15.570 +05:30 [DBG] Done attempting to bind parameter 'loginDto' of type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO'.
+2024-11-06 12:03:15.570 +05:30 [DBG] Attempting to validate the bound parameter 'loginDto' of type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO' ...
+2024-11-06 12:03:15.587 +05:30 [DBG] Done attempting to validate the bound parameter 'loginDto' of type 'UserRoleAPI.DataAccessLayer.DTO.LoginDTO'.
+2024-11-06 12:03:17.613 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'UserRoleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-06 12:03:17.679 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:17.795 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:17.802 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:17.811 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:17.845 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:18.007 +05:30 [DBG] Creating DbConnection.
+2024-11-06 12:03:18.071 +05:30 [DBG] Created DbConnection. (57ms).
+2024-11-06 12:03:18.079 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:18.554 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:18.567 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:18.584 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (8ms).
+2024-11-06 12:03:18.608 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (40ms).
+2024-11-06 12:03:18.630 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:18.729 +05:30 [INF] Executed DbCommand (103ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:18.770 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:18.788 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:18.803 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 62ms reading results.
+2024-11-06 12:03:18.809 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:18.824 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (14ms).
+2024-11-06 12:03:18.847 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:18.849 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:18.856 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:18.857 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:18.857 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:18.857 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:18.862 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:18.864 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:18.866 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:18.867 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:18.867 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:18.868 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:18.868 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:18.873 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:18.874 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:18.874 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:18.874 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:18.875 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:18.875 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:18.875 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:18.875 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:19.044 +05:30 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Include(u => u.Role)
+    .FirstOrDefault(u => u.Email == __email_0 && u.ActiveStatus)'
+2024-11-06 12:03:19.258 +05:30 [DBG] Including navigation: 'User.Role'.
+2024-11-06 12:03:19.754 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: User.UserId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.ActiveStatus (bool) Required, 1], [Property: User.CreatedBy (string) Required, 2], [Property: User.CreatedOn (DateTime) Required, 3], [Property: User.Email (string) Required Index MaxLength(255), 4], [Property: User.MobileNumber (string) MaxLength(20), 5], [Property: User.Password (string) Required MaxLength(255), 6], [Property: User.RoleId (int) Required FK Index, 7], [Property: User.UserName (string) Required MaxLength(255), 8] }
+                1 -> Dictionary<IProperty, int> { [Property: Role.RoleId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 9], [Property: Role.ActiveStatus (bool) Required, 10], [Property: Role.CreatedBy (string) Required, 11], [Property: Role.CreatedOn (DateTime) Required, 12], [Property: Role.RoleName (string) Required MaxLength(255), 13] }
+            SELECT TOP(1) m.UserId, m.ActiveStatus, m.CreatedBy, m.CreatedOn, m.Email, m.MobileNumber, m.Password, m.RoleId, m.UserName, m0.RoleId, m0.ActiveStatus, m0.CreatedBy, m0.CreatedOn, m0.RoleName
+            FROM mst_Users AS m
+            INNER JOIN mst_Roles AS m0 ON m.RoleId == m0.RoleId
+            WHERE (m.Email == @__email_0) && m.ActiveStatus), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        UserRoleAPI.Data.UserRoleDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-11-06 12:03:19.853 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:19.860 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:19.860 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:19.860 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:19.861 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:19.861 +05:30 [DBG] Executing DbCommand [Parameters=[@__email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[UserId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[Email], [m].[MobileNumber], [m].[Password], [m].[RoleId], [m].[UserName], [m0].[RoleId], [m0].[ActiveStatus], [m0].[CreatedBy], [m0].[CreatedOn], [m0].[RoleName]
+FROM [mst_Users] AS [m]
+INNER JOIN [mst_Roles] AS [m0] ON [m].[RoleId] = [m0].[RoleId]
+WHERE [m].[Email] = @__email_0 AND [m].[ActiveStatus] = CAST(1 AS bit)
+2024-11-06 12:03:19.900 +05:30 [INF] Executed DbCommand (39ms) [Parameters=[@__email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[UserId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[Email], [m].[MobileNumber], [m].[Password], [m].[RoleId], [m].[UserName], [m0].[RoleId], [m0].[ActiveStatus], [m0].[CreatedBy], [m0].[CreatedOn], [m0].[RoleName]
+FROM [mst_Users] AS [m]
+INNER JOIN [mst_Roles] AS [m0] ON [m].[RoleId] = [m0].[RoleId]
+WHERE [m].[Email] = @__email_0 AND [m].[ActiveStatus] = CAST(1 AS bit)
+2024-11-06 12:03:19.936 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:19.999 +05:30 [DBG] The navigation 'User.Role' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.014 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.043 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.044 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 143ms reading results.
+2024-11-06 12:03:20.049 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.050 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (1ms).
+2024-11-06 12:03:20.051 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.052 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.052 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:20.052 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:20.088 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:20.089 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.089 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.089 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:20.090 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:20.090 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:20.090 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:20.092 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:20.092 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:20.093 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.093 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:20.093 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.093 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:20.093 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.093 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:20.114 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.114 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.114 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:20.114 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:20.115 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:20.116 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.116 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.116 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:20.116 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:20.117 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:20.117 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:20.118 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:20.119 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:20.119 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.119 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:20.120 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.120 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:20.120 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.120 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:20.121 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.121 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.121 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:20.121 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:20.122 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:20.122 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.123 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.123 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:20.123 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:20.123 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:20.123 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:20.125 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:20.125 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:20.125 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.125 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:20.126 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.126 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:20.126 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.126 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:20.133 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.133 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.133 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:20.133 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:20.133 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:20.134 +05:30 [DBG] Executing DbCommand [Parameters=[@__email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[UserId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[Email], [m].[MobileNumber], [m].[Password], [m].[RoleId], [m].[UserName], [m0].[RoleId], [m0].[ActiveStatus], [m0].[CreatedBy], [m0].[CreatedOn], [m0].[RoleName]
+FROM [mst_Users] AS [m]
+INNER JOIN [mst_Roles] AS [m0] ON [m].[RoleId] = [m0].[RoleId]
+WHERE [m].[Email] = @__email_0 AND [m].[ActiveStatus] = CAST(1 AS bit)
+2024-11-06 12:03:20.137 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[UserId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[Email], [m].[MobileNumber], [m].[Password], [m].[RoleId], [m].[UserName], [m0].[RoleId], [m0].[ActiveStatus], [m0].[CreatedBy], [m0].[CreatedOn], [m0].[RoleName]
+FROM [mst_Users] AS [m]
+INNER JOIN [mst_Roles] AS [m0] ON [m].[RoleId] = [m0].[RoleId]
+WHERE [m].[Email] = @__email_0 AND [m].[ActiveStatus] = CAST(1 AS bit)
+2024-11-06 12:03:20.138 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.139 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results.
+2024-11-06 12:03:20.139 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.139 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:20.139 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.140 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.140 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:20.140 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:20.141 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:20.141 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.142 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.142 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:20.142 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:20.142 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:20.142 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:20.143 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:20.144 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:20.144 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.144 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:20.144 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.144 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:20.144 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.144 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:20.145 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.146 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.146 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:20.146 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:20.146 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:20.146 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.147 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.147 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:20.147 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:20.147 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:20.147 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:20.148 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:20.148 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:20.149 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.149 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:20.149 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.149 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:20.149 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:20.150 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:20.211 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-06 12:03:20.214 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-11-06 12:03:20.214 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 12:03:20.214 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 12:03:20.216 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 12:03:20.216 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-06 12:03:20.241 +05:30 [INF] Executed action UserRoleAPI.BusinessLayer.Controllers.AuthController.Login (UserRoleAPI) in 5430.1579ms
+2024-11-06 12:03:20.242 +05:30 [INF] Executed endpoint 'UserRoleAPI.BusinessLayer.Controllers.AuthController.Login (UserRoleAPI)'
+2024-11-06 12:03:20.246 +05:30 [DBG] Connection id "0HN7U5JFOAOEH" completed keep alive response.
+2024-11-06 12:03:20.251 +05:30 [DBG] 'UserRoleDbContext' disposed.
+2024-11-06 12:03:20.265 +05:30 [DBG] Disposing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:20.268 +05:30 [DBG] Disposed connection to database '' on server '' (4ms).
+2024-11-06 12:03:20.269 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5064/api/Auth/login - 200 null application/json; charset=utf-8 5759.931ms
+2024-11-06 12:03:37.039 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5064/api/Role/export-excel - null null
+2024-11-06 12:03:37.041 +05:30 [DBG] 2 candidate(s) found for the request path '/api/Role/export-excel'
+2024-11-06 12:03:37.042 +05:30 [DBG] Endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRoles (UserRoleAPI)' with route pattern 'api/Role/export-excel' is valid for the request path '/api/Role/export-excel'
+2024-11-06 12:03:37.042 +05:30 [DBG] Endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.GetRoleById (UserRoleAPI)' with route pattern 'api/Role/{id}' is valid for the request path '/api/Role/export-excel'
+2024-11-06 12:03:37.042 +05:30 [DBG] Request matched endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRoles (UserRoleAPI)'
+2024-11-06 12:03:37.043 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-06 12:03:37.158 +05:30 [DBG] Successfully validated the token.
+2024-11-06 12:03:37.161 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-11-06 12:03:37.175 +05:30 [DBG] Authorization was successful.
+2024-11-06 12:03:37.176 +05:30 [INF] Executing endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRoles (UserRoleAPI)'
+2024-11-06 12:03:37.185 +05:30 [INF] Route matched with {action = "ExportRoles", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExportRoles() on controller UserRoleAPI.BusinessLayer.Controllers.RoleController (UserRoleAPI).
+2024-11-06 12:03:37.185 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 12:03:37.186 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 12:03:37.186 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-06 12:03:37.186 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 12:03:37.186 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-06 12:03:37.186 +05:30 [DBG] Executing controller factory for controller UserRoleAPI.BusinessLayer.Controllers.RoleController (UserRoleAPI)
+2024-11-06 12:03:37.190 +05:30 [DBG] Executed controller factory for controller UserRoleAPI.BusinessLayer.Controllers.RoleController (UserRoleAPI)
+2024-11-06 12:03:37.350 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'UserRoleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-06 12:03:37.350 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.351 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.351 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:37.352 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:37.352 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:37.354 +05:30 [DBG] Creating DbConnection.
+2024-11-06 12:03:37.355 +05:30 [DBG] Created DbConnection. (1ms).
+2024-11-06 12:03:37.355 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.356 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.356 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:37.356 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:37.356 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:37.357 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:37.368 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:37.369 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:37.369 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.369 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:37.370 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.370 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:37.370 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.370 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:37.375 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.375 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.376 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:37.376 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:37.376 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:37.377 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.378 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.378 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:37.378 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:37.378 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:37.378 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:37.380 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:37.380 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:37.380 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.381 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:37.381 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.381 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:37.381 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.381 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:37.392 +05:30 [DBG] Compiling query expression: 
+'DbSet<Role>()
+    .Where(r => r.ActiveStatus)
+    .OrderByDescending(u => u.CreatedOn)'
+2024-11-06 12:03:37.409 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Role>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Role.RoleId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Role.ActiveStatus (bool) Required, 1], [Property: Role.CreatedBy (string) Required, 2], [Property: Role.CreatedOn (DateTime) Required, 3], [Property: Role.RoleName (string) Required MaxLength(255), 4] }
+        SELECT m.RoleId, m.ActiveStatus, m.CreatedBy, m.CreatedOn, m.RoleName
+        FROM mst_Roles AS m
+        WHERE m.ActiveStatus
+        ORDER BY m.CreatedOn DESC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Role>, 
+    UserRoleAPI.Data.UserRoleDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-11-06 12:03:37.413 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.413 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.413 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:37.413 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:37.413 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:37.414 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[RoleId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[RoleName]
+FROM [mst_Roles] AS [m]
+WHERE [m].[ActiveStatus] = CAST(1 AS bit)
+ORDER BY [m].[CreatedOn] DESC
+2024-11-06 12:03:37.419 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[RoleId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[RoleName]
+FROM [mst_Roles] AS [m]
+WHERE [m].[ActiveStatus] = CAST(1 AS bit)
+ORDER BY [m].[CreatedOn] DESC
+2024-11-06 12:03:37.421 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.423 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.424 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.424 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.425 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.425 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.425 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.425 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 5ms reading results.
+2024-11-06 12:03:37.425 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.426 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:37.426 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.426 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.426 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:37.426 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:37.427 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:37.427 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.428 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.428 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:37.428 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:37.428 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:37.428 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:37.430 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:37.430 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:37.431 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.431 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:37.431 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:37.431 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:37.431 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:37.431 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:38.415 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:38.416 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:38.416 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:38.416 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:38.416 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:38.417 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:38.417 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:38.417 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:38.418 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:38.418 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:38.418 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:38.420 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:38.420 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:38.420 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:38.420 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:38.420 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:38.421 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:38.421 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:38.421 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:38.424 +05:30 [INF] Executing FileContentResult, sending file with download name 'Roles.xlsx' ...
+2024-11-06 12:03:38.431 +05:30 [DBG] The file result has not been enabled for processing range requests. To enable it, set the EnableRangeProcessing property on the result to 'true'.
+2024-11-06 12:03:38.437 +05:30 [INF] Executed action UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRoles (UserRoleAPI) in 1250.6738ms
+2024-11-06 12:03:38.437 +05:30 [INF] Executed endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRoles (UserRoleAPI)'
+2024-11-06 12:03:38.438 +05:30 [DBG] Connection id "0HN7U5JFOAOEH" completed keep alive response.
+2024-11-06 12:03:38.438 +05:30 [DBG] 'UserRoleDbContext' disposed.
+2024-11-06 12:03:38.439 +05:30 [DBG] Disposing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:38.439 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-11-06 12:03:38.439 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5064/api/Role/export-excel - 200 4683 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 1400.3675ms
+2024-11-06 12:03:55.044 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5064/api/Role/export-pdf - null null
+2024-11-06 12:03:55.047 +05:30 [DBG] 2 candidate(s) found for the request path '/api/Role/export-pdf'
+2024-11-06 12:03:55.047 +05:30 [DBG] Endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRolesToPdf (UserRoleAPI)' with route pattern 'api/Role/export-pdf' is valid for the request path '/api/Role/export-pdf'
+2024-11-06 12:03:55.047 +05:30 [DBG] Endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.GetRoleById (UserRoleAPI)' with route pattern 'api/Role/{id}' is valid for the request path '/api/Role/export-pdf'
+2024-11-06 12:03:55.048 +05:30 [DBG] Request matched endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRolesToPdf (UserRoleAPI)'
+2024-11-06 12:03:55.048 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-06 12:03:55.054 +05:30 [DBG] Successfully validated the token.
+2024-11-06 12:03:55.054 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-11-06 12:03:55.059 +05:30 [DBG] Authorization was successful.
+2024-11-06 12:03:55.060 +05:30 [INF] Executing endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRolesToPdf (UserRoleAPI)'
+2024-11-06 12:03:55.068 +05:30 [INF] Route matched with {action = "ExportRolesToPdf", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExportRolesToPdf() on controller UserRoleAPI.BusinessLayer.Controllers.RoleController (UserRoleAPI).
+2024-11-06 12:03:55.068 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 12:03:55.068 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 12:03:55.068 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-06 12:03:55.068 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 12:03:55.068 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-06 12:03:55.068 +05:30 [DBG] Executing controller factory for controller UserRoleAPI.BusinessLayer.Controllers.RoleController (UserRoleAPI)
+2024-11-06 12:03:55.070 +05:30 [DBG] Executed controller factory for controller UserRoleAPI.BusinessLayer.Controllers.RoleController (UserRoleAPI)
+2024-11-06 12:03:55.109 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'UserRoleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-06 12:03:55.110 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.110 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.111 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:55.113 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:55.113 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:55.114 +05:30 [DBG] Creating DbConnection.
+2024-11-06 12:03:55.114 +05:30 [DBG] Created DbConnection. (0ms).
+2024-11-06 12:03:55.114 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.115 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.115 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:55.115 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:55.115 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:55.115 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:55.120 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:55.121 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:55.121 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.121 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:55.121 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.121 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:55.121 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.121 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:55.122 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.122 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.122 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:55.122 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:55.122 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:55.123 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.123 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.123 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:55.123 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:55.124 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:55.124 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:55.127 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:55.127 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:55.127 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.127 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:55.127 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.127 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:55.128 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.128 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:55.129 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.129 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.129 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:55.129 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:55.129 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:55.129 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[RoleId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[RoleName]
+FROM [mst_Roles] AS [m]
+WHERE [m].[ActiveStatus] = CAST(1 AS bit)
+ORDER BY [m].[CreatedOn] DESC
+2024-11-06 12:03:55.134 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[RoleId], [m].[ActiveStatus], [m].[CreatedBy], [m].[CreatedOn], [m].[RoleName]
+FROM [mst_Roles] AS [m]
+WHERE [m].[ActiveStatus] = CAST(1 AS bit)
+ORDER BY [m].[CreatedOn] DESC
+2024-11-06 12:03:55.135 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.135 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.135 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.135 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.135 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.135 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.136 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.136 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results.
+2024-11-06 12:03:55.136 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.136 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:55.136 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.136 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.136 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:55.136 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:55.137 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:55.137 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.137 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.138 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:55.138 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:55.138 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:55.138 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:55.139 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:55.139 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:55.139 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.140 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:55.140 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.140 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:55.140 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.140 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:55.944 +05:30 [DBG] 'UserRoleDbContext' generated a temporary value for the property 'Log.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.945 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.945 +05:30 [DBG] SaveChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:55.945 +05:30 [DBG] DetectChanges starting for 'UserRoleDbContext'.
+2024-11-06 12:03:55.946 +05:30 [DBG] DetectChanges completed for 'UserRoleDbContext'.
+2024-11-06 12:03:55.946 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.947 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.947 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:03:55.947 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:55.947 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:03:55.947 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:55.948 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Logs] ([Exception], [Level], [Message], [MessageTemplate], [Properties], [Timestamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-11-06 12:03:55.949 +05:30 [DBG] The foreign key property 'Log.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-06 12:03:55.949 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.949 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-11-06 12:03:55.949 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.949 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:03:55.949 +05:30 [DBG] An entity of type 'Log' tracked by 'UserRoleDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:03:55.949 +05:30 [DBG] SaveChanges completed for 'UserRoleDbContext' with 1 entities written to the database.
+2024-11-06 12:03:55.950 +05:30 [INF] Executing FileContentResult, sending file with download name 'Roles.pdf' ...
+2024-11-06 12:03:55.950 +05:30 [DBG] The file result has not been enabled for processing range requests. To enable it, set the EnableRangeProcessing property on the result to 'true'.
+2024-11-06 12:03:55.950 +05:30 [INF] Executed action UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRolesToPdf (UserRoleAPI) in 882.37ms
+2024-11-06 12:03:55.950 +05:30 [INF] Executed endpoint 'UserRoleAPI.BusinessLayer.Controllers.RoleController.ExportRolesToPdf (UserRoleAPI)'
+2024-11-06 12:03:55.951 +05:30 [DBG] Connection id "0HN7U5JFOAOEH" completed keep alive response.
+2024-11-06 12:03:55.951 +05:30 [DBG] 'UserRoleDbContext' disposed.
+2024-11-06 12:03:55.951 +05:30 [DBG] Disposing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:03:55.951 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-11-06 12:03:55.951 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5064/api/Role/export-pdf - 200 1824 application/pdf 907.1077ms
+2024-11-06 12:04:12.978 +05:30 [DBG] Connection id "0HN7U5JFOAOEI" received FIN.
+2024-11-06 12:04:12.980 +05:30 [DBG] Connection id "0HN7U5JFOAOEI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-06 12:04:12.981 +05:30 [DBG] Connection id "0HN7U5JFOAOEI" disconnecting.
+2024-11-06 12:04:12.987 +05:30 [DBG] Connection id "0HN7U5JFOAOEI" stopped.
+2024-11-06 12:06:07.119 +05:30 [DBG] Connection id "0HN7U5JFOAOEH" disconnecting.
+2024-11-06 12:06:07.120 +05:30 [DBG] Connection id "0HN7U5JFOAOEH" stopped.
+2024-11-06 12:06:07.125 +05:30 [DBG] Connection id "0HN7U5JFOAOEH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-06 12:06:59.435 +05:30 [DBG] Connection id "0HN7U5JFOAOEJ" accepted.
+2024-11-06 12:06:59.435 +05:30 [DBG] Connection id "0HN7U5JFOAOEJ" started.
+2024-11-06 12:06:59.438 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5064/Log - null null
+2024-11-06 12:06:59.438 +05:30 [DBG] 1 candidate(s) found for the request path '/Log'
+2024-11-06 12:06:59.438 +05:30 [DBG] Endpoint 'UserRoleAPI.PresentationLayer.Controllers.LogController.GetLogs (UserRoleAPI)' with route pattern 'Log' is valid for the request path '/Log'
+2024-11-06 12:06:59.439 +05:30 [DBG] Request matched endpoint 'UserRoleAPI.PresentationLayer.Controllers.LogController.GetLogs (UserRoleAPI)'
+2024-11-06 12:06:59.439 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-06 12:06:59.440 +05:30 [DBG] Successfully validated the token.
+2024-11-06 12:06:59.441 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-11-06 12:06:59.442 +05:30 [INF] Executing endpoint 'UserRoleAPI.PresentationLayer.Controllers.LogController.GetLogs (UserRoleAPI)'
+2024-11-06 12:06:59.447 +05:30 [INF] Route matched with {action = "GetLogs", controller = "Log"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLogs() on controller UserRoleAPI.PresentationLayer.Controllers.LogController (UserRoleAPI).
+2024-11-06 12:06:59.447 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 12:06:59.447 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 12:06:59.447 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-06 12:06:59.447 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 12:06:59.447 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-06 12:06:59.448 +05:30 [DBG] Executing controller factory for controller UserRoleAPI.PresentationLayer.Controllers.LogController (UserRoleAPI)
+2024-11-06 12:06:59.449 +05:30 [DBG] Executed controller factory for controller UserRoleAPI.PresentationLayer.Controllers.LogController (UserRoleAPI)
+2024-11-06 12:06:59.452 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'UserRoleDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-11-06 12:06:59.456 +05:30 [DBG] Compiling query expression: 
+'DbSet<Log>()'
+2024-11-06 12:06:59.468 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Log>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Log.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Log.Exception (string) Required, 1], [Property: Log.Level (string) Required, 2], [Property: Log.Message (string) Required, 3], [Property: Log.MessageTemplate (string) Required, 4], [Property: Log.Properties (string) Required, 5], [Property: Log.Timestamp (DateTime) Required, 6] }
+        SELECT l.Id, l.Exception, l.Level, l.Message, l.MessageTemplate, l.Properties, l.Timestamp
+        FROM Logs AS l), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Log>, 
+    UserRoleAPI.Data.UserRoleDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-11-06 12:06:59.478 +05:30 [DBG] Creating DbConnection.
+2024-11-06 12:06:59.478 +05:30 [DBG] Created DbConnection. (0ms).
+2024-11-06 12:06:59.478 +05:30 [DBG] Opening connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:06:59.478 +05:30 [DBG] Opened connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:06:59.478 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 12:06:59.478 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:06:59.479 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 12:06:59.479 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Exception], [l].[Level], [l].[Message], [l].[MessageTemplate], [l].[Properties], [l].[Timestamp]
+FROM [Logs] AS [l]
+2024-11-06 12:06:59.481 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Exception], [l].[Level], [l].[Message], [l].[MessageTemplate], [l].[Properties], [l].[Timestamp]
+FROM [Logs] AS [l]
+2024-11-06 12:06:59.482 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.482 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.483 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.483 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.483 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.483 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.483 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.483 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.483 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.483 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.483 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.483 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.484 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.484 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.484 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.484 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.484 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.484 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.484 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.484 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.484 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.484 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.485 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.485 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.485 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.485 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.485 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.485 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.485 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.485 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.485 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.485 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.486 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.486 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.486 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.486 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.486 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.486 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.486 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.486 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.486 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.486 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.486 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.487 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.487 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.487 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.487 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.487 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.487 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.487 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.487 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.487 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.487 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.487 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.487 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.488 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.488 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.488 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.488 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.488 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.488 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.488 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.488 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.488 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.488 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.488 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.489 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.489 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.489 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.489 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.489 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.489 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.490 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.490 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.490 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.490 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.490 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.490 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.491 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.491 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.491 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.491 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.491 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.491 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.492 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.492 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.492 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.492 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.492 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.492 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.493 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.493 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.493 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.493 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.493 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.493 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.493 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.493 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.493 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.494 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.494 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.494 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.494 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.494 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.494 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.494 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.494 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.494 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.495 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.495 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.495 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.495 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.495 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.495 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.495 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.495 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.495 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.495 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.495 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.495 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.495 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.496 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.496 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.496 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.496 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.496 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.496 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.496 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.496 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.496 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.496 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.496 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.496 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.496 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.497 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.497 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.497 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.497 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.497 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.497 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.497 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.497 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.497 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.497 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.497 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.497 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.497 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.498 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.498 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.498 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.498 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.498 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.498 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.498 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.498 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.499 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.499 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.499 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.499 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.499 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.499 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.499 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.499 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.499 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.500 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.500 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.500 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.500 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.500 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.500 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.500 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.500 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.500 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.500 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.501 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.501 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.501 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.501 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.501 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.501 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.501 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.502 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.503 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.503 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.503 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.503 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.503 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.503 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.503 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.503 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.503 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.503 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.503 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.503 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.504 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.505 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.505 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.505 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.505 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.505 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.505 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.505 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.505 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.505 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.505 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.505 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.505 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.505 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.506 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.506 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.506 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.506 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.506 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.506 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.507 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.507 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.507 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.507 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.507 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.508 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.508 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.508 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.508 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.508 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.508 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.509 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.509 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.509 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.509 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.509 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.509 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.509 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.510 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.510 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.510 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.510 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.510 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.510 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.510 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.510 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.511 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.511 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.511 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.511 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.511 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.511 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.512 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.512 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.512 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.512 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.512 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.512 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.512 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.513 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.513 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.513 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.513 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.513 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.513 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.514 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.514 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.514 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.514 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.514 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.514 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.515 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.515 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.515 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.515 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.515 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.515 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.515 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.515 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.516 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.517 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.518 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.519 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.520 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.521 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.521 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.521 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.521 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.521 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.521 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.521 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.522 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.522 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.522 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.522 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.522 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.522 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.522 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.522 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.522 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.522 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.522 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.523 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.523 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.523 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.523 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.523 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.524 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.524 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.524 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.524 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.524 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.525 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.525 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.525 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.525 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.525 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.526 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.526 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.526 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.526 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.526 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.526 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.526 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.526 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.526 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.526 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.526 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.527 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.527 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.527 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.527 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.527 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.527 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.527 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.527 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.528 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.528 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.528 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.528 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.528 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.529 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.529 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.529 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.529 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.529 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.529 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.529 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.530 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.530 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.530 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.530 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.530 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.530 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.530 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.530 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.530 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.531 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.532 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.533 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.533 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.533 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.533 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.533 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.533 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.533 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.533 +05:30 [DBG] Context 'UserRoleDbContext' started tracking 'Log' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-06 12:06:59.533 +05:30 [DBG] Closing data reader to 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:06:59.533 +05:30 [DBG] A data reader for 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 52ms reading results.
+2024-11-06 12:06:59.533 +05:30 [DBG] Closing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:06:59.533 +05:30 [DBG] Closed connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-11-06 12:06:59.534 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-06 12:06:59.534 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-11-06 12:06:59.534 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 12:06:59.534 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 12:06:59.534 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 12:06:59.534 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserRoleAPI.DataAccessLayer.Models.Log, UserRoleAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-06 12:06:59.578 +05:30 [INF] Executed action UserRoleAPI.PresentationLayer.Controllers.LogController.GetLogs (UserRoleAPI) in 130.8261ms
+2024-11-06 12:06:59.578 +05:30 [INF] Executed endpoint 'UserRoleAPI.PresentationLayer.Controllers.LogController.GetLogs (UserRoleAPI)'
+2024-11-06 12:06:59.579 +05:30 [DBG] Connection id "0HN7U5JFOAOEJ" completed keep alive response.
+2024-11-06 12:06:59.579 +05:30 [DBG] 'UserRoleDbContext' disposed.
+2024-11-06 12:06:59.579 +05:30 [DBG] Disposing connection to database 'UserRoleDB' on server '(localdb)\MSSQLLocalDB'.
+2024-11-06 12:06:59.579 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-11-06 12:06:59.579 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5064/Log - 200 null application/json; charset=utf-8 141.1374ms
+2024-11-06 12:09:10.842 +05:30 [DBG] Connection id "0HN7U5JFOAOEJ" disconnecting.
+2024-11-06 12:09:10.842 +05:30 [DBG] Connection id "0HN7U5JFOAOEJ" stopped.
+2024-11-06 12:09:10.842 +05:30 [DBG] Connection id "0HN7U5JFOAOEJ" sending FIN because: "The Socket transport's send loop completed gracefully."
